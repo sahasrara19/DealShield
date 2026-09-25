@@ -113,7 +113,7 @@ with st.sidebar:
     )
 
     st.divider()
-    st.markdown("### 🧪 Quick Samples")
+    st.markdown("###  Quick Samples")
     selected_sample = st.selectbox("Load Sample Agreement", list(SAMPLE_DOCS.keys()))
 
 # ----------------- Header Section -----------------
@@ -170,7 +170,7 @@ For each flagged issue (e.g., broad non-competes, aggressive IP assignment, unca
 - **Why It Harms You**: Practical impact in plain English.
 - **Fair Replacement Language**: Ready-to-use standard balanced clause to substitute.
 
-## 3. Ready-to-Send Counter-Proposal Email
+## 3. Ready to Send Counter Proposal Email
 Draft a complete, tactful counter-offer email to the sender incorporating the revised terms using the **{tone}** tone. Include standard placeholders like [Recipient Name] and [Your Name].
 """
 
